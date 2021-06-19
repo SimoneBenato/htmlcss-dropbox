@@ -42,6 +42,11 @@ a {
     padding: 10px 15px;
 }
 
+.wrapper {
+    width: 60%;
+    margin: 0 auto;
+}
+
 /* header */
 
 .banner-list {
@@ -68,11 +73,13 @@ a {
 .jumbotron {
     width: 100%;
     background-color: rgb(180, 208, 231);
+    margin-bottom: 200px;
 }
 
 .content {
     width: 80%;
     margin: auto;
+    padding-top: 70px;
 }
 
 .jumbotron-title {
@@ -88,7 +95,7 @@ a {
 .jumbotron-img {
     position: absolute;
     left: 40%;
-    width: 50%;
+    width: 55%;
 }
 
 .jumbotron-img img {
@@ -113,6 +120,48 @@ a {
 
 /* fine jumbotron */
 
+/* css wrapper */
+
+.wrapper h2 {
+    font-size: 2em;
+    font-style: bold;
+    font-weight: 800;
+    margin-bottom: 50px;
+}
+
+/* box */
+
+.list-box {
+    width: 30%;
+    float: left;
+    height: 1000px;
+    border: 1px solid gray;
+}
+
+.title-box {
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid gray;
+}
+
+.middle {
+    margin: 0 5%;
+}
+
+.main-box {
+    padding: 20px;
+}
+
+.price {
+    font-size: small;
+    font-weight: bold;
+}
+/* fine box */
+
+/* fine css wrapper */
+
+/* header */
+/* fine header */
 
 /* header */
 /* fine header */
