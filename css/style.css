@@ -142,6 +142,7 @@ a {
     text-align: center;
     padding: 10px;
     border-bottom: 1px solid gray;
+    font-weight: bold;
 }
 
 .middle {
@@ -155,7 +156,49 @@ a {
 .price {
     font-size: small;
     font-weight: bold;
+    margin: 15px auto;
 }
+
+.conditions {
+    color: gray;
+    margin-bottom: 30px;
+}
+
+.dotations ul li {
+    list-style: none;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.shop {
+    margin-bottom: 50px;
+}
+
+.shop a {
+    display: block;
+    text-decoration: none;
+    background-color: rgb(0, 97, 255);
+    color: white;
+    padding: 5px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+#buy-now{
+    display: inline;
+    background-color: white;
+    color: rgb(0, 97, 255);
+}
+
+.features ul li {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+h4 {
+    margin-bottom: 20px;
+}
+
 /* fine box */
 
 /* fine css wrapper */
